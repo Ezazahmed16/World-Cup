@@ -4,6 +4,7 @@
     header{
         width: 100%;
         margin-top: 0px;
+        border-radius: 0px;
     }
     .header{
         display: block;
@@ -24,6 +25,33 @@
     .right-h img{
         width: 16rem;
     }
+
+    /* Blog Section */
+    #blog{
+        width: 100%;
+    }
+    .blog{
+        display: block;
+    }
+    .blog-nav{
+        width: 80%;
+        display: block;
+        margin: 0 auto;
+    }
+    .blog-body{
+        display: block;
+        margin: 10px auto;
+    }
+
+    /* footer */
+    .f-links{
+        display: block;
+    }
+    .f-links a{
+        display: block;
+        text-align: center;
+    }
+
 }
   
 /* Media Query for low resolution  Tablets, Ipads */
@@ -45,6 +73,32 @@
     .right-h img{
         width: 15rem;
     }
+
+        /* Blog Section */
+        #blog{
+            width: 100%;
+        }
+        .blog{
+            display: block;
+        }
+        .blog-nav{
+            width: 80%;
+            display: block;
+            margin: 0 auto;
+        }
+        .blog-body{
+            display: block;
+            margin: 10px auto;
+        }
+
+        /* footer */
+        .f-links{
+            display: block;
+        }
+        .f-links a{
+            display: block;
+            text-align: center;
+        }
 }
   
 /* Media Query for Tablets Ipads portrait mode */
@@ -66,6 +120,34 @@
     .right-h img{
         width: 20rem;
     }
+
+    /* Blog Section */
+    .blog{
+        display: block;
+    }
+    .blog-nav{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .blog-nav{
+        width: 100%;
+    }
+    .blog-body {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .viewall-btn{
+        display: block;
+    }
+
+    /* footer */
+    .f-links a{
+        font-size: 16px;
+        width: 20%;
+    }
+
 }
 
   
