@@ -10,7 +10,7 @@
 body{
     font-family: 'Poppins', sans-serif;
     width: 100%;
-    background-color: bisque;
+    background-color: rgb(231, 237, 237);
 }
 
 /* Header */
@@ -57,6 +57,50 @@ header{
 .left-h button:hover{
     background-position: 0;
 }
+
+/* btn animation */
+.slide {
+    font-size: 16px;
+    letter-spacing: 1px;
+    outline: 0;
+    border: 1px solid black;
+    position: relative;
+  }
+  
+  .slide i {
+    opacity: 0;
+    font-size: 13px;
+    transition: 0.2s;
+    position: absolute;
+    right: 10px;
+    top: 21px;
+    transition: transform 1;
+  }
+  
+  .slide div {
+    transition: transform 0.8s;
+  }
+  
+  .slide:hover div {
+    transform: translateX(-7px);
+  }
+  
+  .slide::after {
+    content: "";
+    background-color: #66f2d5;
+    width: 100%;
+    z-index: -1;
+    position: absolute;
+    height: 100%;
+    top: 7px;
+    left: 7px;
+  }
+  
+  .slide:hover i {
+    opacity: 1;
+    transform: translateX(-6px);
+  }
+
 .right-h{
     padding: 10px;
 }
@@ -100,7 +144,6 @@ header{
     color: white;
     background-color: #DD0000;
 }
-
 
 .blog-body{
     width: 80%;
@@ -171,6 +214,10 @@ header{
     grid-template-columns: repeat(3, 1fr);
     margin: 15px 0px;
 }
+.country-vs-country img{
+    width: 118px;
+    height: 70px;
+}
 .country-vs-country h1{
     text-align: center;
 }
@@ -240,3 +287,5 @@ footer{
     font-size: 25px;
     cursor: pointer;
 }
+
+
