@@ -48,6 +48,9 @@
     }
 
     /* footer */
+    footer h1{
+        font-size: 18px;
+    }
     .f-links{
         display: block;
     }
@@ -101,6 +104,9 @@
         }
 
         /* footer */
+        footer h1{
+            font-size: 18px;
+        }
         .f-links{
             display: block;
         }
