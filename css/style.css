@@ -67,7 +67,7 @@ header{
 }
 
 /* Blog Sectiona */
-#blog, #upcomming{
+#blog, #upcomming, #allgroups{
     width: 90%;
     margin: 20px auto;
 }
@@ -77,6 +77,11 @@ header{
 }
 .blog-nav{
     width: 20%;
+    background-color: #161616;
+    height: fit-content;
+}
+.blog-nav li{
+    list-style: none;
 }
 .blog-nav a{
     display: block;
@@ -88,15 +93,14 @@ header{
     color: black;
     font-weight: bolder;
     transition: .5s ease;
+    border-radius: 15px;
 }
+
 .blog-nav a:hover{
     color: white;
     background-color: #DD0000;
 }
-.blog-nav a:active{
-    color: white;
-    background-color: #DD0000;
-}
+
 
 .blog-body{
     width: 80%;
@@ -111,6 +115,7 @@ header{
 }
 .blog-content img{
     width: 290px;
+    height: 162px;
     display: block;
     margin: 10px auto;
     border-radius: 15px;
@@ -120,9 +125,10 @@ header{
     margin: 2px;
     padding: 10px;
     border: 1px solid #DD0000;
+    border-radius: 10px;
 }
 .blog-content h3{
-    font-size: 18pxpx;
+    font-size: 18px;
     margin: 5px 1px;
 }
 .blog-time{
@@ -169,6 +175,28 @@ header{
     text-align: center;
 }
 
+/* All Groups */
+.blog-content h1{
+    text-align: center;
+}
+.details-btn{
+    display: block;
+    justify-content: center;
+}
+.details-btn{
+    padding: 10px 15px;
+    border: 1px solid red;
+    margin: 10px auto;
+    display: block;
+    text-align: center;
+    transition: .5s ease;
+    cursor: pointer;
+}
+.details-btn:hover{
+    color: white;
+    background-color: #DD0000;
+}
+
 
 
 /* footer */
@@ -185,15 +213,30 @@ footer{
     color: white;
     margin: 15px 0px;
     text-align: center;
-    border-bottom: 1px solid B6B6B6;
 }
 .f-links{
     margin-top: 15px;
+    margin-bottom: 15px;
     display: flex;
     justify-content: space-evenly;
+    border-bottom: 1px solid #B6B6B6;
+    border-top: 1px solid #B6B6B6;
+
 }
 .f-links a{
     padding: 10px;
     color: #B6B6B6;
     text-decoration: none;
+}
+.social-link{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+.social-link a{
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+    font-size: 25px;
+    cursor: pointer;
 }
