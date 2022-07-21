@@ -46,6 +46,12 @@
     .blog-content img{
         width: 240px;
     }
+    .country-vs-country{
+        align-items: center;
+    }
+    .country-vs-country img{
+        width: 100px;
+    }
 
     /* footer */
     footer h1{
@@ -101,6 +107,12 @@
         }
         .blog-content img{
             width: 240px;
+        }
+        .country-vs-country{
+            align-items: center;
+        }
+        .country-vs-country img{
+            width: 100px;
         }
 
         /* footer */
